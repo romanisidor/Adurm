@@ -1,0 +1,264 @@
+<ion-header>
+  <ion-toolbar>
+    <h2 class="title">Aduanas</h2> 
+    </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true" ion-padding>
+
+  <div>
+    <h3 class="title1">Aquí encontrarás la aduana que necesites</h3>
+  </div>
+
+  <ion-segment color="new" value="segment1" (ionChange)="segmentChange($event)">
+    <ion-segment-button value="segment1">
+      <p class="styleSegment">Estados</p> 
+    </ion-segment-button>
+
+    <ion-segment-button value="segment2">
+      <p class="styleSegment">Todas</p> 
+      </ion-segment-button>
+  </ion-segment>
+  <div *ngIf="segment1">
+  
+      <ion-grid fixed>
+        <ion-row>
+          <ion-col size="6">
+            <ion-card mode="ios"  class="badge1" data-badge="1" routerLink="/guerrero">
+
+              <ion-card-content>
+
+                <h2 class="style">Guerrero</h2>
+
+              </ion-card-content>
+            </ion-card>
+          </ion-col>
+          <ion-col size="6">
+            <ion-card mode="ios" class="badge1" data-badge="2" routerLink="/cdmx">
+              <ion-card-content>
+
+                <h2 class="style">CDMX</h2>
+
+              </ion-card-content>
+            </ion-card>
+          </ion-col>
+          <ion-col size="6">
+            <ion-card mode="ios" class="badge1" data-badge="3" routerLink="/coahuila">
+              <ion-card-content>
+
+                <h2 class="style">Coahuila</h2>
+
+              </ion-card-content>
+            </ion-card>
+          </ion-col>
+          <ion-col size="6">
+            <ion-card mode="ios" class="badge1" data-badge="2" routerLink="/nuevoleon">
+              <ion-card-content>
+
+                <h2 class="style">Nuevo León</h2>
+
+              </ion-card-content>
+            </ion-card>
+          </ion-col>
+          <ion-col size="6">
+            <ion-card mode="ios" class="badge1" data-badge="7" routerLink="/tamaulipas">
+              <ion-card-content>
+
+                <h2 class="style">Tamaulipas</h2>
+
+              </ion-card-content>
+            </ion-card>
+          </ion-col>
+          <ion-col size="6">
+            <ion-card mode="ios" class="badge1" data-badge="2" routerLink="/quintanaroo">
+              <ion-card-content>
+
+                <h2 class="style">Quintana Roo</h2>
+
+              </ion-card-content>
+            </ion-card>
+          </ion-col>
+          <ion-col size="6">
+            <ion-card mode="ios" class="badge1" data-badge="4" routerLink="/bajacalifornia">
+              <ion-card-content>
+
+                <h2 class="style">Baja California</h2>
+
+              </ion-card-content>
+            </ion-card>
+          </ion-col>
+          
+          <ion-col size="6">
+            <ion-card mode="ios" class="badge1" data-badge="1" routerLink="/queretaro">
+              <ion-card-content>
+
+                <h2 class="style">Querétaro</h2>
+
+              </ion-card-content>
+            </ion-card>
+          </ion-col>
+          <ion-col size="6">
+            <ion-card mode="ios" class="badge1" data-badge="3" routerLink="/veracruz">
+              <ion-card-content>
+
+                <h2 class="style">Veracruz</h2>
+
+              </ion-card-content>
+            </ion-card>
+          </ion-col>
+          <ion-col size="6">
+            <ion-card mode="ios" class="badge1" data-badge="6" routerLink="/sonora">
+              <ion-card-content>
+
+                <h2 class="style">Sonora</h2>
+
+              </ion-card-content>
+            </ion-card>
+          </ion-col>
+          <ion-col size="6">
+            <ion-card mode="ios" class="badge1" data-badge="1" routerLink="/michoacan">
+              <ion-card-content>
+
+                <h2 class="style">Michoacán</h2>
+
+              </ion-card-content>
+            </ion-card>
+          </ion-col>
+          <ion-col size="6">
+            <ion-card mode="ios" class="badge1" data-badge="1" routerLink="/aguascalientes">
+              <ion-card-content>
+
+                <h2 class="style">Aguascalientes</h2>
+
+
+              </ion-card-content>
+            </ion-card>
+          </ion-col>
+          <ion-col size="6">
+            <ion-card mode="ios" class="badge1" data-badge="1" routerLink="/yucatan">
+              <ion-card-content>
+
+                <h2 class="style">Yucatán</h2>
+
+              </ion-card-content>
+            </ion-card>
+          </ion-col>
+          <ion-col size="6">
+            <ion-card mode="ios" class="badge1" data-badge="1" routerLink="/jalisco">
+              <ion-card-content>
+
+                <h2 class="style">Jalisco</h2>
+
+              </ion-card-content>
+            </ion-card>
+          </ion-col>
+          <ion-col size="6">
+            <ion-card mode="ios" class="badge1" data-badge="1" routerLink="/guanajuato">
+              <ion-card-content>
+
+                <h2 class="style">Guanajuato</h2>
+
+              </ion-card-content>
+            </ion-card>
+          </ion-col>
+          <ion-col size="6">
+            <ion-card mode="ios">
+              <ion-card-content class="badge1" data-badge="1" routerLink="/tabasco">
+
+                <h2 class="style">Tabasco</h2>
+
+              </ion-card-content>
+            </ion-card>
+          </ion-col>
+          <ion-col size="6">
+            <ion-card mode="ios" class="badge1" data-badge="1" routerLink="/colima">
+              <ion-card-content>
+
+                <h2 class="style">Colima</h2>
+
+              </ion-card-content>
+            </ion-card>
+          </ion-col>
+          <ion-col size="6">
+            <ion-card mode="ios" class="badge1" data-badge="1" routerLink="/campeche">
+              <ion-card-content>
+
+                <h2 class="style">Campeche</h2>
+
+              </ion-card-content>
+            </ion-card>
+          </ion-col>
+          <ion-col size="6">
+            <ion-card mode="ios" class="badge1" data-badge="1" routerLink="/puebla">
+              <ion-card-content>
+
+                <h2 class="style">Puebla</h2>
+
+              </ion-card-content>
+            </ion-card>
+          </ion-col>
+          <ion-col size="6">
+            <ion-card mode="ios" class="badge1" data-badge="4" routerLink="/chihuahua">
+              <ion-card-content>
+
+                <h2 class="style">Chihuahua</h2>
+
+              </ion-card-content>
+            </ion-card>
+          </ion-col>
+          <ion-col size="6">
+            <ion-card mode="ios" class="badge1" data-badge="1" routerLink="/chiapas">
+              <ion-card-content>
+
+                <h2 class="style">Chiapas</h2>
+
+              </ion-card-content>
+            </ion-card>
+          </ion-col>
+          <ion-col size="6">
+            <ion-card mode="ios" class="badge1" data-badge="1" routerLink="/sinaloa">
+              <ion-card-content>
+
+                <h2 class="style">Sinaloa</h2>
+
+              </ion-card-content>
+            </ion-card>
+          </ion-col>
+          <ion-col size="6">
+            <ion-card mode="ios" class="badge1" data-badge="1" routerLink="/oaxaca">
+              <ion-card-content>
+
+                <h2 class="style">Oaxaca</h2>
+
+              </ion-card-content>
+            </ion-card>
+          </ion-col>
+          <ion-col size="6">
+            <ion-card mode="ios" class="badge1" data-badge="1" routerLink="/mexico">
+              <ion-card-content>
+
+                <h2 class="style">Estado de México</h2>
+
+              </ion-card-content>
+            </ion-card>
+          </ion-col>
+          <ion-col size="6">
+            <ion-card mode="ios" class="badge1" data-badge="1" routerLink="/bajacaliforniasur">
+              <ion-card-content>
+
+                <h2 class="style">Baja California Sur</h2>
+
+              </ion-card-content>
+            </ion-card>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+    
+  
+  </div>
+  <div *ngIf="segment2">
+    <h1 class="style">Pagina 2</h1>
+  </div>
+
+</ion-content>
+

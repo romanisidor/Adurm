@@ -1,0 +1,48 @@
+#map{
+    height: 100%;
+    width: 100%;
+  }
+
+  .style{
+    font-family: 'Kumbh Sans', sans-serif;
+      text-align: center;
+      font-weight: 200;
+      color:#0F3455;
+  }
+  
+  
+  #container {
+    text-align: center;
+    font-family: 'Kumbh Sans', sans-serif;
+
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  #container strong {
+    font-size: 20px;
+    font-family: 'Kumbh Sans', sans-serif;
+    line-height: 26px;
+  }
+  
+  #container p {
+    font-size: 16px;
+    font-family: 'Kumbh Sans', sans-serif;
+
+    line-height: 22px;
+
+  
+    color: #8c8c8c;
+  
+    margin: 0;
+  }
+
+  
+  
+  #container a {
+    text-decoration: none;
+  }
+  

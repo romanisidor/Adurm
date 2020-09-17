@@ -1,0 +1,550 @@
+{
+    "GUERRERO":[
+        {
+        "id": 1,
+        "estado": "Guerrero",
+        "nombre": "Aduana de Acapulco",
+        "horario_sem":"8:00 - 17:00",
+        "direccion": "Plan de Los Amates SN, Aereopuerto Internacional Juan N. Alvarez, 39893 Acapulco de Juárez, Gro.",
+        "tipo": "Aduana marítima",
+        "agentes": "0"
+    }
+    ],
+    "CDMX":[
+        {
+        "id": 1,
+        "estado": "Ciudad de México",
+        "nombre": "Aduana de México",
+        "horario_sem":"9:00 - 18:00",
+        "direccion": "Ferrocarril Central S/N, Cosmopolita, Azcapotzalco, 02670 Ciudad de México, CDMX",
+        "tipo": "Aduana interior",
+        "imagen":"assets/img/mex.jpg",
+        "agentes": "9"
+    },
+    {
+        "id": 2,
+        "estado": "Ciudad de México",
+        "nombre": "Aduana del Aeropuerto Internacional de la Ciudad de México",
+        "horario_sem":"8:00 - 20:00",
+        "horario-fin":"10:00 - 14:00",
+        "direccion": "Av. 602 S/N, Peñón de los Baños, Venustiano Carranza, 15620 Ciudad de México, CDMX",
+        "tipo": "Aduana interior/aérea",
+        "imagen":"assets/img/aicm.jpg",
+        "agentes": "62"
+
+    }
+    ],
+    "COAHUILA":[
+         {
+        "id": 1,
+        "estado": "Coahuila",
+        "nombre": "Aduana de Piedras Negras",
+        "horario_sem":"8:00 - 22:00",
+        "horario-fin": "9:00 - 15:00",
+        "direccion": "Zaragoza y Fuente s/n Zona Centro C.P. 26000, Piedras Negras, Coah.",
+        "tipo": "Aduana fronteriza norte",
+        "agentes": "13"
+    },
+    {
+        "id": 2,
+        "estado": "Coahuila",
+        "nombre": "Aduana de Torreon",
+        "horario_sem":"9:00 - 17:00",
+        "direccion": "Blvd. del Desierto, Parque Industrial Ferropuerto Laguna, Torreón, Coah.",
+        "tipo": "Aduana interior",
+        "agentes": "1"
+
+    },
+    {
+        "id": 3,
+        "estado": "Coahuila",
+        "nombre": "Aduana de Ciudad Acuña",
+        "horario_sem":"8:00 - 20:00",
+        "horario-fin":"9:00 - 14:00",
+        "direccion": "Miguel Hidalgo y Nicolás Bravo S/N Edificio Puerto de México, C.P. 26200 Ciudad Acuña, Coah.",
+        "tipo": "Aduana fronteriza norte",
+        "agentes": "6"
+    }
+    ],
+    "NUEVO_LEON":[
+        {
+        "id": 1,
+        "estado": "Nuevo León",
+        "nombre": "Aduana de Colombia",
+        "horario_sem":"9:00 - 21:00",
+        "horario-fin":"10:00 - 14:00",
+        "direccion": "Carretera Nuevo Laredo-Piedras Negras, Km.34.5 Anáhuac C.P. 65000, Colombia, N. L.",
+        "tipo": "Aduana fronteriza norte",
+        "agentes": "15"
+    },
+    {
+        "id": 2,
+        "estado": "Nuevo León",
+        "nombre": "Aduana de Monterrey",
+        "horario-sem":"8:00 - 20:00",
+        "direccion": "Carretera a Colombia Km. 5.5, 66050 General Escobedo, N. L.",
+        "tipo": "Aduana interior",
+        "agentes": "1"
+        
+    }
+    ],
+    "TAMAULIPAS":[
+    {
+        "id": 1,
+        "estado": "Tamaulipas",
+        "nombre": "Aduana de Altamira",
+        "horario-sem":"9:00 - 20:00",
+        "horario-fin":"10:00 - 14:00",
+        "direccion": "Carretera Rio Tamesi, Km. 0+720 Entre Blvd. de Los Rios y Golfo de California, 89600 Altamira, Tamaulipas",
+        "tipo": "Aduana marítima",
+        "agentes": "23"
+        
+    },
+    {
+        "id": 2,
+        "estado": "Tamaulipas",
+        "nombre": "Aduana de Ciudad Camargo",
+        "horario-sem":"8:00 - 20:00",
+        "horario-fin":"10:00 - 13:00",
+        "direccion": "Carretera a Puente Internacional Km. 6, Cruce Internacional Rio Grande, Río Grande, 88440 Tamps.",
+        "tipo": "Aduana fronteriza norte",
+        "agentes": "0"
+    },
+    {
+        "id": 3,
+        "estado": "Tamaulipas",
+        "nombre": "Aduana de Ciudad Miguel Alemán",
+        "horario-sem":"8:00 - 20:00",
+        "horario-fin":"10:00 - 14:00",
+        "direccion": "Zapata, Centro, 88300 Cd Miguel Alemán, Tamps.",
+        "tipo": "Aduana fronteriza norte",
+        "agentes": "4"
+    },
+     {
+        "id": 4,
+        "estado": "Tamaulipas",
+        "nombre": "Aduana de Matamoros",
+        "horario-sem":"9:00 - 21:00",
+        "horario-fin": "10:00 - 14:00",
+        "direccion": "5 de Mayo Sn, Centro, 87300 Heroica Matamoros, Tamps.",
+        "tipo": "Aduana fronteriza norte",
+        "agentes": "16"
+
+    },
+    {
+        "id": 5,
+        "estado": "Tamaulipas",
+        "nombre": "Aduana de Nuevo Laredo",
+        "horario-sem":"8:00 - 24:00",
+        "horario-fin":"8:00 - 16:00",
+        "direccion": "Carretera Nuevo Laredo-Piedras Negras, Puente Internacional Comercio Mundial Km. 12.5, Sector Centro, 88000 Nuevo Laredo, Tamps.",
+        "tipo": "Aduana fronteriza norte",
+        "agentes": "107"
+    },
+    {
+        "id": 6,
+        "estado": "Tamaulipas",
+        "nombre": "Aduana de Ciudad Reynosa",
+        "horario-sem":"8:00 - 21:00",
+        "horario-fin": "10:00-14:00",
+        "direccion": "Av. Miguel Alemán S/N Puente Internacional Benito Juárez Zona Centro, 88577 Ciudad Reynosa , Tamps.",
+        "tipo": "Aduana fronteriza norte",
+        "agentes": "23"
+        
+    },
+    {
+        "id": 7,
+        "estado": "Tamaulipas",
+        "nombre": "Aduana de Tampico",
+        "horario-sem":"8:00 - 17:00",
+        "horario-fin": "10:00 - 13:00",
+        "direccion": "Acceso a La Aduana Marítima, Zona Centro, 89000 Tampico, Tamps.",
+        "tipo": "Aduana marítima",
+        "agentes": "23"
+    }
+    ],
+    "QUINTANA ROO":[
+      {
+        "id": 1,
+        "estado": "Quintana Roo",
+        "nombre": "Aduana de Subteniente López",
+        "horario-sem":"8:00 - 17:00",
+        "direccion": "Av. México No.51 Poblado de Subteniente López, 77900 Subteniente López, Q. Roo.",
+        "tipo": "Aduana fronteriza sur",
+        "agentes": "0"
+
+    },  
+    {
+        "id": 2,
+        "estado": "Quintana Roo",
+        "nombre": "Aduana de Cancún",
+        "horario-sem":"9:00 - 18:00",
+        "horario-fin":"8:00 - 12:00",
+        "direccion": "Edificio anexo al Aeropuerto Internacional de Cancun 77565",
+        "tipo": "Aduana marítima",
+        "agentes": "3"
+    }
+    ],
+    "BAJA_CALIFORNIA":[
+        {
+        "id": 1,
+        "estado": "Baja California ",
+        "nombre": "Aduana de Mexicali",
+        "horario-sem":"8:00 - 20:00",
+        "horario-fin":"10:00 - 14:00",
+        "direccion": "Boulevard Abelardo L. Rodríguez s/n Col. Alamitos C.P. 21210, Mexicali, B.C.",
+        "tipo": "Aduana fronteriza norte",
+        "agentes": "7"
+
+    },
+    {
+        "id": 2,
+        "estado": "Baja California",
+        "nombre": "Aduana de Tecate",
+        "horario-sem":"8:00 - 16:00",
+        "horario-fin": "9:00 - 16:00",
+        "direccion": "Av. Lázaro Cárdenas y Callejón Madero No.201 Zona Centro, C.P. 21400 Tecate, B.C.",
+        "tipo": "Aduana fronteriza norte",
+        "agentes": "2"
+    },
+    {
+        "id": 3,
+        "estado": "Baja California",
+        "nombre": "Aduana de Tijuana",
+        "horario-sem":"8:00 - 20:00",
+        "horario-fin": "9:00 - 14:00",
+        "direccion": "Línea Internacional S/N Fraccionamiento Mesa de Otay, C.P. 22509 Tijuana, B.C.",
+        "tipo": "Aduana fronteriza norte",
+        "agentes": "17"
+
+    },
+    {
+        "id": 4,
+        "estado": "Baja de California",
+        "nombre": "Aduana de Ensenada",
+        "horario-sem":"8:00 - 17:00",
+        "horario-fin":"9:00 - 12:00",
+        "direccion": "Blvd, Paseo Olas Altas 110, Recinto Portuario, 22800 Ensenada, B.C.",
+        "tipo": "Aduana marítima",
+        "agentes": "0"
+    }
+    ],
+    "BAJA_CALIFORNIA_SUR":[
+        {
+        "id": 1,
+        "estado": "Baja California Sur",
+        "nombre": "Aduana de La Paz",
+        "horario-sem":"9:00 - 19:00",
+        "direccion": "Paseo Álvaro Obregón e Ignacio Bañuelos Cabezud Edificio SHCP, 2do. piso Zona Centro 23000, La Paz, B. C. S.",
+        "tipo": "Aduana marítima",
+        "agentes": "0"
+    }
+    ],
+
+    "MEXICO":[
+        {
+        "id": 1,
+        "estado": "Estado de México",
+        "nombre": "Aduana de Toluca",
+        "horario-sem":"8:00 - 20:00",
+        "horario-fin": "9:00 - 17:00",
+        "direccion": "Blvd. Miguel Alemán Valdés S/N, esq. Agustín Millán Edif. A, Terminal de Carga Aérea, Segunda y Tercera Fase Col. San Pedro Totoltepec, C.P. 50200 Toluca, Estado de México.",
+        "tipo": "Aduana interior",
+        "agentes": "6"
+
+    }
+    ],
+    "QUERETARO":[
+        {
+        "id": 1,
+        "estado": "Querétaro",
+        "nombre": "Aduana de Querétaro",
+        "horario-sem":"10:00 - 21:00",
+        "direccion": "El Marques, Santiago de Querétaro, Querétaro",
+        "tipo": "Aduana interior",
+        "agentes": "3"
+    }
+    ],
+    "AGUASCALIENTES":[
+        {
+        "id": 1,
+        "estado": "Sonora",
+        "nombre": "Aduana de Agua Prieta",
+        "horario-sem":"9:00 - 17:00",
+        "horario-fin":"12:00 - 14:00",
+        "direccion": "Panamericana, Sector Industrial, 84210 Agua Prieta, Son.",
+        "tipo": "Aduana fronteriza norte",
+        "agentes": "2"
+
+    }
+    ],
+    "OAXACA":[
+        {
+        "id": 1,
+        "estado": "Oaxaca",
+        "nombre": "Aduana de Salina Cruz",
+        "horario-sem":"8:00 - 17:00",
+        "horario-fin": "8:00 - 13:00",
+        "direccion": "Avenida Miramar, s/n, Cantaranas, 70680 Salina Cruz, Oax.",
+        "tipo": "Aduana marítima",
+        "agentes": "0"
+    }
+    ],
+    "VERACRUZ":[
+        {
+        "id": 1,
+        "estado": "Veracruz",
+        "nombre": "Aduana de Coatzacoalcos",
+        "horario-sem":"8:00 - 20:00",
+        "horario-fin":"10:00 - 13:00",
+        "direccion": "Interior del Recinto Fiscal S/N. Zona Franca, Col. Centro, C.P. 96400 Coatzacoalcos, Ver.",
+        "tipo": "Aduana marítima",
+        "agentes": "0"
+    },  
+    {
+        "id": 2,
+        "estado": "Veracruz",
+        "nombre": "Aduana de Tuxpan",
+        "horario-sem":"8:00 - 17:00",
+        "direccion": "Carretera a la Barra Sur, Km. 8, interior del recinto fiscal Muelle Fiscal C.P. 92800, Tuxpan, Ver.",
+        "tipo": "Aduana marítima",
+        "agentes": "1"
+
+    },
+    {
+        "id": 3,
+        "estado": "Veracruz",
+        "nombre": "Aduana de Veracruz",
+        "horario-sem":"8:00 - 20:00",
+        "horario-fin": "8:00 - 14:00",
+        "direccion": "Carretera a la Barra Sur, Km. 8, interior del recinto fiscal Muelle Fiscal C.P. 92800, Tuxpan, Ver.",
+        "tipo": "Aduana marítima",
+        "agentes": "39"
+
+    }
+    ],
+    "SONORA":[
+        {
+        "id": 1,
+        "estado": "Sonora",
+        "nombre": "Aduana de Agua Prieta",
+        "horario-sem":"9:00 - 18:00",
+        "horario-fin":"12:00 - 14:00",
+        "direccion": "Panamericana, Sector Industrial, 84210 Agua Prieta, Son.",
+        "tipo": "Aduana fronteriza norte",
+        "agentes": "2"
+
+    },
+     {
+        "id": 2,
+        "estado": "Sonora",
+        "nombre": "Aduana de Guaymas",
+        "horario-sem":"8:00 - 17:00",
+        "direccion": "Av. Aquiles Serdan y 26 SN, Centro, 85400 Heroica Guaymas, Son.",
+        "tipo": "Aduana marítima",
+        "agentes": "2"
+    },  
+    {
+        "id": 3,
+        "estado": "Sonora",
+        "nombre": "Aduana de Naco",
+        "horario-sem":"9:00 - 18:00",
+        "direccion": "Av. Francisco I. Madero 5, Centro, 84180 Naco, Son.",
+        "tipo": "Aduana fronteriza norte",
+        "agentes": "0"
+    },
+    {
+        "id": 4,
+        "estado": "Sonora",
+        "nombre": "Aduana de Nogales",
+        "horario-sem":"8:00 - 20:00",
+        "horario-fin":"10:00 - 14:00",
+        "direccion": "Puerto Fronterizo Nogales III Nuevo Corredor Fiscal Km.12 84000, Nogales, Son.",
+        "tipo": "Aduana fronteriza norte",
+        "agentes": "20"
+    },
+    {
+        "id": 5,
+        "estado": "Sonora",
+        "nombre": "Aduana de San Luis Río Colorado",
+        "horario-sem":"9:00 - 17:00",
+        "horario-fin": "9:00 - 14:00",
+        "direccion": "Av. Carlos G. Zona Centro 83400 San Luis Río Colorado, Son.",
+        "tipo": "Aduana fronteriza norte",
+        "agentes": "0"
+    },
+    {
+        "id": 6,
+        "estado": "Sonora",
+        "nombre": "Aduana de Sonoyta",
+        "horario-sem":"8:00 - 15:00",
+        "horario-fin": "18:00 - 20:00",
+        "direccion": "Boulevard Benemérito de las Américas 290 Col. Ejido Hombres Blancos C.P.83570, Sonoyta, Son.",
+        "tipo": "Aduana fronteriza norte",
+        "agentes": "0"
+    }
+    ],
+    "MICHOACAN":[
+        {
+        "id": 1,
+        "estado": "Michoacan",
+        "nombre": "Aduana de Lázaro Cárdenas",
+        "horario-sem":"9:00 - 19:00",
+        "horario-fin": "10:00 - 14:00",
+        "direccion": "Prolongación Av. Lázaro Cárdenas 1 Col. Centro, 60950, Lázaro Cárdenas, Mich.",
+        "tipo": "Aduana marítima",
+        "agentes": "2"
+
+    }
+    ],
+    "YUCATAN":[
+    {
+        "id": 1,
+        "estado": "Yucatán",
+        "nombre": "Aduana de Progreso",
+        "horario-sem":"9:00 - 17:30",
+        "horario-fin": "9:00 - 14:00",
+        "direccion": "Calle 25 SN, Centro 97320 Progreso, Yucatán.",
+        "tipo": "Aduana marítima",
+        "agentes": "9"
+    }
+    ],
+    "JALISCO":[
+        {
+        "id": 1,
+        "estado": "Jalisco",
+        "nombre": "Aduana de Guadalajara",
+        "horario-sem":"8:00 - 20:00",
+        "horario-fin":"9:00 - 13:00",
+        "direccion": "Aeropuerto Internacional Miguel Hidalgo Tlajomulco de Zúñiga C.P. 45659, Guadalajara, Jal.",
+        "tipo": "Aduana interior",
+        "agentes": "13"
+    }
+    ],
+    "GUANAJUATO":[
+        {
+        "id": 1,
+        "estado": "Guanajuato",
+        "nombre": "Aduana de Guanajuato",
+        "horario-sem":"9:00 - 18:00",
+        "direccion": "Carretera Panamericana #45 tramo León-Silao, Km. 160 24, Silao, Ejido el Refugio, Rancho San Isidro",
+        "tipo": "Aduana interior",
+        "agentes": "0"
+    }
+    ],
+    "TABASCO":[
+    {
+        "id": 1,
+        "estado": "Tabasco",
+        "nombre": "Aduana de Dos Bocas",
+        "horario-sem":"9:00 - 17:00",
+        "horario-fin":"10:00 - 14:00",
+        "direccion": "Av. Gral. Manuel Doblado Ote. No.101 Col. Centro, C.P. 86600 Paraiso, Tabasco",
+        "tipo": "Aduana marítima",
+        "agentes": "0"
+    }
+    ],
+    "COLIMA":[
+        {
+        "id": 1,
+        "estado": "Colima",
+        "nombre": "Aduana de Manzanillo",
+        "horario-sem":"9:00 - 21:00",
+        "horario-fin": "8:00 - 15:00",
+        "direccion": "Blvd. Miguel de la Madrid s/n Edificio Centro Integral de Gestiones portuarias, Tapeixtles, 28876 Manzanillo, Col.",
+        "tipo": "Aduana marítima",
+        "agentes": "13"
+
+    }
+    ],
+    "CAMPECHE":[
+        {
+        "id": 1,
+        "estado": "Campeche",
+        "nombre": "Aduana de Ciudad del Carmen",
+        "horario-sem":"8:00 - 17:00",
+        "direccion": "Puerto Pesquero, 24129 Ciudad del Carmen, Campeche",
+        "tipo": "Aduana marítima",
+        "agentes": "2"
+
+    }
+    ],
+    "PUEBLA":[
+    {
+        "id": 1,
+        "estado": "Puebla",
+        "nombre": "Aduana de Puebla",
+        "horario-sem":"9:00 - 17:00",
+        "direccion": "Calle I 1046, Parque Industrial Puebla 2000, 72225 Puebla, Pue.",
+        "tipo": "Aduana interior",
+        "agentes": "2"
+    }
+    ],
+    "CHIHUAHUA":[
+        {
+        "id": 1,
+        "estado": "Chihuahua",
+        "nombre": "Aduana de Chihuahua",
+        "horario-sem":"8:00 - 20:00",
+        "horario-fin":"9:00 - 11:00",
+        "direccion": "Av. Homero 540, Complejo Industrial Chihuahua, 31136 Chihuahua, Chih.",
+        "tipo": "Aduana interior",
+        "agentes": "0"
+    },
+    {
+        "id": 2,
+        "estado": "Chihuahua",
+        "nombre": "Aduana de Ciudad Juárez",
+        "horario-sem":"8:00 - 20:00",
+        "horario-fin":"10:00 - 14:00",
+        "direccion": "Puente Internacional de Córdova América S/N Area del, Chamizal, 32310 Cd Juárez, Chih.",
+        "tipo": "Aduana fronteriza norte",
+        "agentes": "20"
+    },
+    {
+        "id": 3,
+        "estado": "Chihuahua",
+        "nombre": "Aduana de Ojinaga",
+        "horario-sem":"8:00 - 18:00",
+        "direccion": "Calle Zaragoza y Bolívar s/n Zona Centro C.P. 32880, Ojinaga, Chih.",
+        "tipo": "Aduana fronteriza norte",
+        "agentes": "1"
+    },
+    {
+        "id": 4,
+        "estado": "Chihuahua",
+        "nombre": "Aduana de Ciudad Puerto Palomas",
+        "horario-sem":"8:00 - 17:00",
+        "direccion": "Calle Internacional y Av. 5 de Mayo s/n Zona Centro C.P.31830, Puerto Palomas, Chih.",
+        "tipo": "Aduana fronteriza norte",
+        "agentes": "0"
+    }
+    ],
+    "CHIAPAS":[
+        {
+        "id": 1,
+        "estado": "Chiapas",
+        "nombre": "Aduana de Ciudad Hidalgo",
+        "horario-sem":"9:00 - 19:00",
+        "horario-fin":"9:00 - 14:00",
+        "direccion": "Tramo Tapachula-Ciudad Hidalgo, Km. 24 400 Suchiate C.P. 30840, Ciudad. Hidalgo, Chis.",
+        "tipo": "Aduana fronteriza sur ",
+        "agentes": "2"
+
+    }
+    ],
+    "SINALOA":[
+        {
+        "id": 2,
+        "estado": "Sinaloa",
+        "nombre": "Aduana de Mazatlán",
+        "horario-sem":"8:00 - 17:00",
+        "direccion": "Avenida Emilio Barragán SN, Centro, 82040 Mazatlán, Sin.",
+        "tipo": "Aduana marítima",
+        "agentes": "0"
+
+    }
+    ]
+
+
+}

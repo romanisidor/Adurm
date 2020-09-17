@@ -1,0 +1,56 @@
+.style{
+    font-family: 'Kumbh Sans', sans-serif;
+      text-align: center;
+      font-weight: 200;
+      color:#0F3455;
+      padding-top: 15px;
+      padding-bottom: 15px;
+  }
+
+  .styleSegment{
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 200;
+    color:#0F3455;
+    text-transform: none;
+  }
+  .title1{
+    text-align: left;
+    font-family: 'Kumbh Sans', sans-serif;
+    color:#0F3455;
+    font-size: 20px;
+    font-weight: 200;
+    padding-top: 30px;
+    padding-left: 20px;
+}
+
+
+  .title{
+    font-family: 'Kumbh Sans', sans-serif;
+      text-align: center;
+      font-weight: 200;
+      color:#0F3455;
+
+  }
+
+  .badge {
+    right: 32px !important;
+  }
+
+  .badge1 {
+    position:relative;
+ }
+ .badge1[data-badge]:after {
+    content:attr(data-badge);
+    position:absolute;
+    top:2px;
+    right:2px;
+    font-size:.7em;
+    background:#1EBBD7;
+    color:white;
+    width:18px;height:18px;
+    text-align:center;
+    line-height:18px;
+    border-radius:50%;
+    
+ }
