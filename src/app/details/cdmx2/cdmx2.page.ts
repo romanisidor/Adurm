@@ -13,13 +13,13 @@ export class Cdmx2Page implements OnInit {
   constructor(private aduanas: AduanasService, private router: Router) { }
 
   ngOnInit() {
-    this.aduanas.GetCDMX().subscribe((data) =>{
-      this.customs = data;
-    })
+    // this.aduanas.GetCDMX().subscribe((data) =>{
+    //   this.customs = data;
+    // })
   }
-  navigate(){
-    this.router.navigate(['cdmx']);
-  }
+  // navigate(){
+  //   // this.router.navigate(['cdmx']);
+  // }
 }
 
 

@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { GUERRERO } from '../../models/aduanas.model';
+// import { GUERRERO } from '../../models/aduanas.model';
 import { AduanasService } from '../../services/aduanas.service';
 import { Router } from '@angular/router';
 
@@ -9,15 +9,15 @@ import { Router } from '@angular/router';
   styleUrls: ['./acapulco2.page.scss'],
 })
 export class Acapulco2Page implements OnInit {
-  customs: GUERRERO;
+  // customs: GUERRERO;
   constructor(private aduanas: AduanasService, private router: Router) { }
 
   ngOnInit() {
-    this.aduanas.GetGuerrero().subscribe((data) =>{
-      this.customs = data;
-    })
+    // this.aduanas.GetGuerrero().subscribe((data) =>{
+    //   this.customs = data;
+    // })
   }
   navigate(){
-    this.router.navigate(['guerrero']);
+    // this.router.navigate(['guerrero']);
   }
 }

@@ -12,6 +12,7 @@ import { AngularFireModule } from '@angular/fire';
 import { AngularFireAuthModule } from '@angular/fire/auth';
 import { environment } from '../environments/environment';
 import {HttpClientModule} from '@angular/common/http';
+import { InfoModalPageModule } from './info-modal/info-modal.module';
 
 @NgModule({
   declarations: [AppComponent],
@@ -20,6 +21,7 @@ import {HttpClientModule} from '@angular/common/http';
     HttpClientModule, 
     IonicModule.forRoot(), 
     AppRoutingModule,
+    InfoModalPageModule,
   AngularFireAuthModule,
   AngularFireModule.initializeApp(environment.firebase)],
   providers: [

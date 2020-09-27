@@ -13,22 +13,11 @@
     <ion-card-content>
       <ion-grid>
       <ion-row>
-        <ion-col size="6">
-          <h2 class="text">Nombre</h2>
-        </ion-col>
-      
-
-        <ion-col size="6">
-          <h2 class="text">{{nameFromForm | async}} </h2>
-        </ion-col>
-      </ion-row>
-
-      <ion-row>
-        <ion-col size="6">
-          <h2 class="text">Email registrado</h2>
+        <ion-col size="12">
+          <h2 class="text">Email registrado:</h2>
         </ion-col>
 
-        <ion-col size="6">
+        <ion-col size="12">
           <h2 class="text">{{userEmail}}</h2>
         </ion-col>
       </ion-row>
@@ -36,7 +25,7 @@
 
       <ion-row>
         <ion-col size="12">
-        <ion-button  expand="full" (click)="logout()">
+        <ion-button  expand="block" (click)="logout()" r>
           <h2 class="button">Cerrar sesión</h2>
         </ion-button>
       </ion-col>

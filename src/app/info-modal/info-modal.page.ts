@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ModalController } from '@ionic/angular';
-ModalController
+
 @Component({
   selector: 'app-info-modal',
   templateUrl: './info-modal.page.html',

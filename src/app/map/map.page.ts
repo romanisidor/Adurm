@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { ViewChild, ElementRef } from '@angular/core';
 import { ModalController } from '@ionic/angular';
-// import { InfoModalPage } from '../info-modal/info-modal.page';
+import { InfoModalPage } from '../info-modal/info-modal.page';
 
 declare var google: any;
 var icon = {
@@ -390,17 +390,17 @@ export class MapPage implements OnInit {
      
   ];
  
-  // private modalController: ModalController
+  
+  constructor(private modalController: ModalController
+    ) { }
 
-  constructor() { }
 
-
-  // async openModal(){
-  //   const modal = await this.modalController.create({
-  //     component: InfoModalPage
-  //   });
-  //   return await modal.present();
-  // }
+  async openModal(){
+    const modal = await this.modalController.create({
+      component: InfoModalPage
+    });
+    return await modal.present();
+  }
 
   
 
@@ -411,6 +411,11 @@ export class MapPage implements OnInit {
     this.showMap();
   
   }
+
+  
+
+
+  
 
   addMarkersToMap(markers) {
     for (let marker of markers) {
@@ -430,11 +435,14 @@ export class MapPage implements OnInit {
       mapMarker.setMap(this.map);
       this.addInfoWindowToMarker(mapMarker);     
       google.maps.event.addListener(mapMarker, 'click', function() {
-        console.log(mapMarker.id);
+        let markerId = mapMarker.id;
+        console.log(markerId);
         });
       
     }
   }
+
+
 
 
   addInfoWindowToMarker(marker) {
@@ -459,7 +467,10 @@ export class MapPage implements OnInit {
           window.open('https://www.google.com/maps/dir/?api=1&destination=' + marker.latitude + ',' + marker.longitude);
         });
         document.getElementById('info').addEventListener('click', () => {
-          // this.openModal();
+          this.openModal();
+          
+          
+          
 
           
           
