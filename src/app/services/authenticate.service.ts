@@ -39,7 +39,7 @@ export class AuthenticateService {
       if (this.afAuth.currentUser) {
         this.afAuth.signOut()
           .then(() => {
-            console.log("Cerrado de sesión exitoso");
+            console.log("Cierre de sesión");
             resolve();
           }).catch((error) => {
             reject();

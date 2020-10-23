@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import { HttpClient} from '@angular/common/http';
-import { Observable } from 'rxjs';
+import { BehaviorSubject, Observable } from 'rxjs';
 import { GUERRERO, CDMX, COAHUILA, NUEVO_LEON, TAMAULIPAS, QUINTANA_ROO, BAJA_CALIFORNIA, BAJA_CALIFORNIA_SUR, MEXICO, QUERETARO, AGUASCALIENTES, OAXACA, VERACRUZ, SONORA, MICHOACAN, YUCATAN, JALISCO, GUANAJUATO, TABASCO, COLIMA, CAMPECHE, PUEBLA, CHIHUAHUA, CHIAPAS, SINALOA, Aduanas } from '../models/aduanas.model';
 
 @Injectable({
@@ -8,49 +8,51 @@ import { GUERRERO, CDMX, COAHUILA, NUEVO_LEON, TAMAULIPAS, QUINTANA_ROO, BAJA_CA
 })
 export class AduanasService {
 
-  aduanas: Aduanas[]
+//   aduanas: Aduanas[]
+//   markerId = new BehaviorSubject<any>(null);
+//   url: string = 'http://localhost:3000/aduanas/'
+//   idFromMap: any;
+//   constructor(private http: HttpClient) { }
 
-  url: string = 'http://localhost/aduanas/'
-  constructor(private http: HttpClient) { }
+//   getId(id: string) {
+//     this.markerId.next(id);
+//   }
 
-  
-  GetGuerrero():Observable<GUERRERO> {
-    return this.http.get<GUERRERO>(`${this.url}/GUERRERO`);
-  }
+//  getInfoAduanas(){
 
-  getInfoAduanas(){
-    return this.http.get(`${this.url}`);
-  }
+//   this.idFromMap = this.markerId;
 
-  
-
-
-
-  
-
-
-
-
-  
-
-
-
-  
-  
-
+//     return this.http.get(`${this.url}${this.idFromMap}`)
+//     .subscribe ( res =>{
+//       console.log(res);
+//     });
+//   }
 
 
   
 
   
 
+
   
 
-  // getAduanas(){
 
-  //   this.http.get('http://localhost:3000/aduanas')
-  //   .subscribe ( res =>{
-  //     // console.log(res);
-  //   });
-  // }
+
+
+  
+
+
+
+  
+  
+
+
+
+  
+
+  
+
+  
+
+  
 }

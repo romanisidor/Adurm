@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { ViewChild, ElementRef } from '@angular/core';
 import { ModalController } from '@ionic/angular';
 import { InfoModalPage } from '../info-modal/info-modal.page';
+import { AduanasService } from '../services/aduanas.service';
 
 declare var google: any;
 var icon = {
@@ -33,6 +34,9 @@ var icon_fn = {
 export class MapPage implements OnInit {
   
   map: any;
+
+  //Declaro en el scope global esta variable
+  markerIdGlobal: '';
 
   @ViewChild('map', {read: ElementRef, static: false}) mapRef: ElementRef;
 
@@ -391,7 +395,8 @@ export class MapPage implements OnInit {
   ];
  
   
-  constructor(private modalController: ModalController
+  constructor(private modalController: ModalController,
+    private AduanasService: AduanasService
     ) { }
 
 
@@ -411,6 +416,7 @@ export class MapPage implements OnInit {
     this.showMap();
   
   }
+
 
   
 
@@ -433,13 +439,27 @@ export class MapPage implements OnInit {
       });
 
       mapMarker.setMap(this.map);
-      this.addInfoWindowToMarker(mapMarker);     
-      google.maps.event.addListener(mapMarker, 'click', function() {
-        let markerId = mapMarker.id;
-        console.log(markerId);
-        });
+      this.addInfoWindowToMarker(mapMarker); 
+
+        google.maps.event.addListener(mapMarker, 'click', ()=> {
+          let markerId = mapMarker.id;
+          this.markerIdGlobal = markerId
+          });
       
+          
+
+        //Ya que ocupo ese valor en la funcion getID
+
+        
+    
+      
+
+        
+        
+      
+        
     }
+    
   }
 
 
@@ -468,6 +488,8 @@ export class MapPage implements OnInit {
         });
         document.getElementById('info').addEventListener('click', () => {
           this.openModal();
+          console.log(this.markerIdGlobal);
+          // this.AduanasService.getId(this.markerIdGlobal);
           
           
           

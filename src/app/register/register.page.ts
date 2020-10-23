@@ -50,7 +50,7 @@ export class RegisterPage implements OnInit {
   
   tryRegister(value) {
     this.name = this.validations_form.get('name').value;
-    console.log(this.name);
+    // console.log(this.name);
     this.authService.nextMessage(this.name);
     this.authService.registerUser(value)
       .then(res => {
