@@ -489,7 +489,7 @@ export class MapPage implements OnInit {
         document.getElementById('info').addEventListener('click', () => {
           this.openModal();
           console.log(this.markerIdGlobal);
-          // this.AduanasService.getId(this.markerIdGlobal);
+          this.AduanasService.getId(this.markerIdGlobal);
           
           
           
