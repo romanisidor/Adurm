@@ -14,15 +14,6 @@ const routes: Routes = [
     path: '',
     loadChildren: () => import('./tabs/tabs.module').then( m => m.TabsPageModule)
   },
- 
-  {
-    path: 'acapulco2',
-    loadChildren: () => import('./details/acapulco2/acapulco2.module').then( m => m.Acapulco2PageModule)
-  },
-  {
-    path: 'cdmx2',
-    loadChildren: () => import('./details/cdmx2/cdmx2.module').then( m => m.Cdmx2PageModule)
-  },
   {
     path: 'info-modal',
     loadChildren: () => import('./info-modal/info-modal.module').then( m => m.InfoModalPageModule)
