@@ -467,9 +467,9 @@ export class MapPage implements OnInit {
 
   addInfoWindowToMarker(marker) {
     let infoWindowContent = '<div id="content">' +
-      '<h2 id="firstHeading" class"firstHeading" style="text-align:center;">' + marker.title + '</h2>' +
-      '<ion-button id="navigate" expand="full">Navegar</ion-button>' +
-      '<ion-button id="info" expand="full">Más información</ion-button>' +
+      '<h2 id="firstHeading" class"firstHeading" style="text-align:center; font-family: Kumbh Sans, sans-serif;">' + marker.title + '</h2>' +
+      '<ion-button id="navigate" expand="full" style="font-family: Kumbh Sans, sans-serif;">Ruta</ion-button>' +
+      '<ion-button id="info" expand="full" style="font-family: Kumbh Sans, sans-serif;">Más información</ion-button>' +
       '</div>';
 
     let infoWindow = new google.maps.InfoWindow({
@@ -488,7 +488,7 @@ export class MapPage implements OnInit {
         });
         document.getElementById('info').addEventListener('click', () => {
           this.openModal();
-          console.log(this.markerIdGlobal);
+          // console.log(this.markerIdGlobal);
           this.AduanasService.getId(this.markerIdGlobal);
           
           
@@ -514,7 +514,8 @@ export class MapPage implements OnInit {
     const options = {
       center: location,
       zoom: 6,
-      disableDefaultUI: false
+      zoomControl: false,
+      streetViewControl: false
     }
     this.map = new google.maps.Map(this.mapRef.nativeElement, options);
     this.addMarkersToMap(this.markers);

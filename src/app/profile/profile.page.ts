@@ -34,7 +34,6 @@ export class ProfilePage implements OnInit {
   logout() {
     this.authService.logoutUser()
       .then(res => {
-        console.log(res);
         this.navCtrl.navigateBack('');
       })
       .catch(error => {

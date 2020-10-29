@@ -1,6 +1,7 @@
 .iconSize {
-    font-size: 16px;
-    color: #189AD3
+    font-size: 20px;
+    color: #189AD3;
+    margin-right: 8px;;
   }
   .iconSize2 {
     font-size: 30px;
@@ -12,6 +13,14 @@
     color:#0F3455;
     font-size: 20px;
     font-weight: 400;
+}
+
+.title2{
+  text-align: center;
+  font-family: 'Kumbh Sans', sans-serif;
+  color:#0F3455;
+  font-size: 12px;
+  font-weight: 200;
 }
 .toolbar{
   text-align: center;
@@ -30,7 +39,7 @@
   text-align: center;
   font-family: 'Kumbh Sans', sans-serif;
   color:#fff;
-  font-size: 20px;
+  font-size: 14px;
   font-weight: 200;
 }
 
@@ -41,7 +50,9 @@
     font-weight: 200;
 
 }
-
+.center{
+  text-align: center;
+}
 .myColor {
     background-color: #107DAC;
     text-align: center;
