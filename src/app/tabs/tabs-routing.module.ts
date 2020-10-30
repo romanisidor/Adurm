@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
+import { AuthGuard } from '../guard/auth.guard';
 
 import { TabsPage } from './tabs.page';
 
@@ -13,7 +14,7 @@ const routes: Routes = [
         children: [
           {
             path: '',
-            loadChildren: () => import ('../map/map.module').then(m=> m.MapPageModule)
+            loadChildren: () => import ('../map/map.module').then(m=> m.MapPageModule), canActivate: [AuthGuard]
           }
         ]
 
