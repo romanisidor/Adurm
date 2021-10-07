@@ -24,7 +24,7 @@ export class InfoModalPage implements OnInit {
       this.customList = data;
 
       
-      console.log(this.customList);
+      // console.log(this.customList);
     });
   }
   async closeModal () {
