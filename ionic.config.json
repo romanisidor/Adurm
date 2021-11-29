@@ -1,5 +1,7 @@
 {
   "name": "adurm",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }

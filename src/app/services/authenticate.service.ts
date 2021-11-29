@@ -14,6 +14,7 @@ export class AuthenticateService {
     this.sharedMessage.next(message)
   }
 
+  // Registro de Usuarios
   registerUser(value) {
     return new Promise<any>((resolve, reject) => {
 
@@ -25,6 +26,7 @@ export class AuthenticateService {
 
   }
 
+  // Inicio de sesión
   loginUser(value) {
     return new Promise<any>((resolve, reject) => {
       this.afAuth.signInWithEmailAndPassword(value.email.trim(), value.password)
@@ -34,8 +36,9 @@ export class AuthenticateService {
     })
   }
 
+  // Cierre de sesión
   logoutUser() {
-    return new Promise((resolve, reject) => {
+    return new Promise<void>((resolve, reject) => {
       if (this.afAuth.currentUser) {
         this.afAuth.signOut()
           .then(() => {

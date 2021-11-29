@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { ViewChild, ElementRef } from '@angular/core';
 import { ModalController } from '@ionic/angular';
+import { AlertController } from '@ionic/angular';
 import { InfoModalPage } from '../info-modal/info-modal.page';
 import { AduanasService } from '../services/aduanas.service';
 
@@ -386,18 +387,14 @@ export class MapPage implements OnInit {
     longitude: "-96.155015",
     icon: icon
   },
-
-
-
-
-
-     
-  ];
+];
  
   
   constructor(private modalController: ModalController,
-    private AduanasService: AduanasService
-    ) { }
+    private AduanasService: AduanasService, private alertController: AlertController
+    ) { 
+      
+    }
 
 
   async openModal(){
@@ -407,13 +404,41 @@ export class MapPage implements OnInit {
     return await modal.present();
   }
 
+  async presentAlert() {
+    const alert = await this.alertController.create({
+      cssClass: 'my-custom-class',
+      header: 'Bienvenido a Adurm',
+      subHeader: 'En este apartado visualizarás los puntos aduanales de todo México',
+      message: `Los puntos en color azul corresponden a las aduanas de <span style="color:#0f3455;">tipo marítima</span> <br> <br> 
+      Los puntos en color rojo corresponden a las aduanas de tipo fronteriza norte <br> <br>
+      Los puntos en color amarillo corresponden a las aduanas de tipo fronteriza sur <br> <br>
+      Los puntos en color verde corresponden a las aduanas de tipo interior <br> <br>
+      `,
+      buttons: [{
+        text: 'Entendido',
+        handler: () => {
+          alert.dismiss();
+        }
+      }]
+    });
+    await alert.present();
+
+    
+  }
+
+
   
 
   ngOnInit() {
+  
+    
+    
   }
 
   ionViewDidEnter() {
     this.showMap();
+    this.presentAlert();
+  
   
   }
 
